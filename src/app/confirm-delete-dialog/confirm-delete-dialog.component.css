@@ -1,0 +1,35 @@
+mat-dialog-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+}
+
+.cancel-button {
+  border: none;
+  background-color: #33e1af;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin: 0 7px;
+  text-transform: uppercase;
+}
+
+.confirm-button {
+  border: none;
+  background-color: #f44336;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin: 0 7px;
+  text-transform: uppercase;
+}
+
+mat-dialog-actions button:hover {
+  opacity: 0.8;
+}

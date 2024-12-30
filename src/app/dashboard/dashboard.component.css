@@ -1,0 +1,144 @@
+.task-dashboard {
+  padding: 20px;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+.top-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.top-controls button {
+  margin-right: 20px;
+}
+
+mat-form-field {
+  width: 200px;
+  margin: 0;
+}
+
+.task-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.task-card {
+  background-color: #f4f4f9;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+mat-card-header {
+  background-color: #53e0b8;
+  color: white;
+}
+
+mat-card-title {
+  font-size: 1.2rem;
+}
+
+mat-card-subtitle {
+  font-size: 1rem;
+}
+
+mat-card-content p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.nested-card {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.edit-button {
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin: 0 7px;
+  text-transform: uppercase;
+}
+
+.delete-button {
+  border: none;
+  background-color: #f44336;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin: 0 7px;
+  text-transform: uppercase;
+  margin-left: auto;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+@media (max-width: 768px) {
+  .top-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task-cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.add-button {
+  height: 45px;
+  width: 200px;
+  border-radius: 25px;
+  background-color: #53e0b8;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  border: none;
+}
+
+/* Hover effect */
+.add-button:hover {
+  background-color: #0d5d78;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus effect */
+.add-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(166, 169, 172, 0.5);
+}
+
+.dashboard-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "title": " task management app one",
+    "description": "Finish the task management app using Angular.",
+    "priority": "High",
+    "status": "Pending"
+  },
+  {
+    "title": " task management app two",
+    "description": "Improve the user interface based on feedback.",
+    "priority": "Medium",
+    "status": "In Progress"
+  },
+  {
+    "title": " task management app three",
+    "description": "Fix reported bugs in the application. testing in process ",
+    "priority": "High",
+    "status": "In Progress"
+  },
+  {
+    "title": " task management app four",
+    "description": "Write detailed documentation for the app. testing in progress",
+    "priority": "Low",
+    "status": "Pending"
+  },
+  {
+    "title": " task management app five",
+    "description": "Deploy the app to production. production testing pending ",
+    "priority": "High",
+    "status": "Completed"
+  },
+  {
+    "title": " task management app six",
+    "description": "Implement authentication with login and registration.",
+    "priority": "High",
+    "status": "In Progress"
+  },
+  {
+    "title": " task management app seven",
+    "description": "Write unit and integration tests for the application.",
+    "priority": "Medium",
+    "status": "Completed"
+  }
+]
